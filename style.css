@@ -1,0 +1,195 @@
+/* general styling */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(/images/clear-black-wall-template.jpg);
+}
+
+h1 {
+    font-size: 24px;
+    padding: 10px 0;
+}
+
+p {
+    font-size: 16px;
+    padding: 10px 0;
+    line-height: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: gold;
+    text-align: center;
+    
+}
+
+/* general header styling */
+
+header {
+    background-color:grey;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+}
+
+/* general content styling */
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0 20%;
+}
+
+article h1 {
+    padding: 20px 0;
+}
+
+article img {
+    padding: 0px 0px;
+    width: 100%;
+}
+
+article figure {
+    padding: 0px;
+    margin: 10px;
+}
+
+
+/* header one */
+
+.mainmenu {
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    /* ensure the header stays on top */
+}
+
+.mainmenu a {
+    color:white;
+    text-decoration: none;
+}
+
+.mainmenu h1 a {
+    padding-left: 30px;
+    font-weight: 600;
+}
+
+.mainmenu h1 {
+    padding-left: 30px;
+    font-weight: 600;
+    color:white;
+}
+
+.mainmenu ul {
+    padding-right: 30px;
+    list-style: none;
+}
+
+.mainmenu ul li {
+    display: inline-block;
+}
+
+.mainmenu ul li a {
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+.mainmenu a:hover {
+    color:black;
+}
+
+.dropdown button{
+    color:white;
+    background-color:grey;
+    border:none;
+    margin: 0;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 18px;
+    list-style: none;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.dropdown:hover button{
+    color: black;
+    background-color: lightgray;
+}
+
+.dropdown .content a {
+    display: block;
+    padding: 10px 15px;
+}
+
+.dropdown .content {
+    display: none;
+    position: absolute;
+    background-color: lightgrey;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+
+
+
+/* sticky */
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+
+/* discord topbar */
+.discord {
+    background-color:gold;
+    text-align: center;
+}
+
+.discord a {
+    color: black;
+    text-decoration: none;
+}
+
+.discord a:hover{
+    color: white;
+}
+
+.teams {
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.teams h1 {
+    padding: 20px 0;
+}
+
+.teams img {
+    padding: 0px 0px;
+    width: 100%;
+}
+
+.teams figure {
+    padding: 0px;
+    margin: 30px;
+}
+
+.playerImg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
